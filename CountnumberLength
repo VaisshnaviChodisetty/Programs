@@ -1,0 +1,27 @@
+import java.util.*;
+class Length
+{
+public static void main(String args[])
+{
+String sms;
+int i;
+Scanner sc=new Scanner(System.in);
+System.out.print("enter string:-");
+sms=sc.nextLine();
+String rm[]=sms.split(" ");
+int n=rm.length;
+if(n==0)
+{
+System.out.print(n);
+}
+else
+{
+for(i=0;i<n;i++)
+{
+String om=rm[i];
+int p=om.length();
+System.out.print(p+"   ");
+}
+}
+}
+}
